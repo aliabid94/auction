@@ -1,0 +1,22 @@
+.standard-description {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.thumbnail{
+    height: 120px;
+    width: auto;
+    display: inline-block;
+}
+
+.thumbnail img {
+	height: 100%;
+}
+
+.centert {
+	margin: 0 auto;
+	text-align: center;
+}
