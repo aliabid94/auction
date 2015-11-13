@@ -94,7 +94,7 @@
 }
 
 .toggle-primary .toggle-slide.active {
-  border-color: #6e8cd7;
+  border-color: #3bc0c3;
 }
 
 .toggle-primary .toggle-slide .toggle-on,
@@ -106,7 +106,7 @@
 
 .toggle-primary .toggle-slide .toggle-on,
 .toggle-primary .toggle-select .toggle-inner .active {
-  background: #6e8cd7;
+  background: #3bc0c3;
   color: #fff;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .toggle-primary .toggle-slide.active .toggle-blob {
-  border-left: 1px solid #6e8cd7;
+  border-left: 1px solid #3bc0c3;
   border-right: 0;
 }
 
