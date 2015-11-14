@@ -63,15 +63,24 @@
             <nav class="navigation">
                 <ul class="list-unstyled">
                     <li><a href="index.html"><i class="ion-home"></i> <span class="nav-label">Home</span></a></li>
-                    <li class="active"><a href="profile.html"><i class="ion-clipboard"></i> <span class="nav-label">Profile</span></a></li>
+                    <li><a href="profile.html"><i class="ion-clipboard"></i> <span class="nav-label">Profile</span></a></li>
                     <li><a href="messages.html"><i class="ion-chatboxes"></i> <span class="nav-label">Messages</span></a></li>
                     <li><a href="calendar.html"><i class="ion-calendar"></i> <span class="nav-label">Calendar</span></a></li>
-                    <li class="has-submenu"><a href="#"><i class="ion-pricetags"></i> <span class="nav-label">My Auctions</span></a>
+                    <li><a href="newauction.html"><i class="ion-plus-circled"></i> <span class="nav-label">New Auction</span></a></li>
+                    <li class="has-submenu"><a href="#"><i class="ion-pricetags"></i> <span class="nav-label">Active Auctions</span></a>
                         <ul class="list-unstyled">
-                            <li><a href="auction1.html">Auction 1 <span class="badge">LIVE</span></a></li>
-                            <li><a href="auction2.html">Auction 2 <span class="badge">COMPLETE</span></a></li>
+                            <li><a href="auction1.html">Auction 1</a></li>
+                        </ul>
+                    <li class="has-submenu"><a href="#"><i class="ion-pricetag"></i> <span class="nav-label">Inactive Auctions</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="auction2.html">Auction 2</a></li>
+                        </ul>
+                    <li class="has-submenu"><a href="#"><i class="ion-podium"></i> <span class="nav-label">Reports</span></a>
+                        <ul class="list-unstyled">
                             <li><a href="auction3.html">Auction 3</a></li>
-                            <li><a href="newauction.html">Create New Auction</a></li>
+                            <li><a href="auction3.html">By Month</a></li>
+                            <li><a href="auction3.html">By Year</a></li>
+                            <li><a href="auction3.html">All Time</a></li>
                         </ul>
                     <li><a href="bidders.html"><i class="ion-person-stalker"></i> <span class="nav-label">Bidders</span></a></li>
                     <li><a href="invoice.html"><i class="ion-card"></i> <span class="nav-label">Invoice</span></a></li>
@@ -100,45 +109,26 @@
                 
                                 
                 <!-- Right navbar -->
-                <ul class="list-inline navbar-right top-menu top-right-menu">  
+                <ul class="list-inline navbar-right top-menu top-right-menu hang-right">  
                     <!-- messages -->  
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                    <li>
+                        <a href="javascript:history.back()">
+                            <i class="ion-arrow-left-a"></i> Back
+                        </a>
+                    </li>
+                    <li>
+                        <a href="messages.html">
                             <i class="fa fa-envelope-o "></i>
                             <span class="badge badge-sm up bg-purple count">2</span>
                         </a>
-                        <ul class="dropdown-menu extended fadeInUp animated nicescroll" tabindex="5001">
-                            <li>
-                                <p>Messages</p>
-                            </li>
-                            <li>
-                                <a href="chat1.html">
-                                    <span class="block"><strong>Ali Abid</strong></span>
-                                    <span class="standard-description">Hey had a question about the Chinese vase, how did you acquire it?<br><small class="text-muted">Approved Bidder</small></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="chat1.html">
-                                    <span class="block"><strong>Daniel Khalek</strong></span>
-                                    <span class="standard-description">Hi, I am Daniel, a bidder interested in Auction 1<br><small class="text-muted">Unapproved Bidder</small></span>
-                                </a>
-                            </li>
-                            <li>
-                                <p><a href="messages.html" class="text-right">See all Messages</a></p>
-                            </li>
-                        </ul>
                     </li>
                     <!-- /messages -->
 
                     <!-- user login dropdown start-->
-                    <li class="dropdown text-center">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            ElijahAuctions <span class="caret"></span>
+                    <li>
+                        <a href="login.html">
+                        <i class="fa fa-sign-out"></i> Log Out
                         </a>
-                        <ul class="dropdown-menu extended pro-menu fadeInUp animated" tabindex="5003" style="overflow: hidden; outline: none;">
-                            <li><a href="profile.html"><i class="fa fa-briefcase"></i>Profile</a></li>
-                            <li><a href="#"><i class="fa fa-sign-out"></i> Log Out</a></li>
-                        </ul>
                     </li>
                     <!-- user login dropdown end -->       
                 </ul>

@@ -20,3 +20,13 @@
 	margin: 0 auto;
 	text-align: center;
 }
+
+.hang-right {
+    float: right;
+}
+
+.ctr-table
+{
+    vertical-align: middle;
+    text-align: center;
+}
